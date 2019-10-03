@@ -6,12 +6,14 @@ html{
     align-content: center;
     align-items: center;
     text-align: center;
+    padding: -39px
 }
 body{
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: -39px
 }
 a{
     color:rgb(192, 107, 107);
@@ -27,8 +29,12 @@ p{
     color: rgb(56, 47, 52);
     margin-left: 50px;
     margin-right:150px;
+    padding: -39px
 }
-.main_div_style{
+a{
+    text-decoration: none;
+}
+.main_div_style p{
     width: 100%;
     flex-wrap: wrap;
     color: rgb(219, 229, 240);
